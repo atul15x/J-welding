@@ -81,7 +81,7 @@ $product_section = mysqli_query($con, $product_section);
         <h4>Product</h4>
         <h2>Mig & Tig Welding Torch</h2>
 
-        <div class="owl-carousel owl-theme wow animate__animated animate__lightSpeedInRight  ">
+        <div class="owl-carousel owl-theme ">
             <?php
             while ($product_section_row = mysqli_fetch_assoc($product_section)) {
                 ?>
